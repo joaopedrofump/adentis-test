@@ -16,7 +16,6 @@ module.exports ={
     
         const filteredS = str.toLowerCase().split('').filter(s => !/[\u0020-\u002f\u003a-\u0040\u005b-\x60\u2000-\u206f]/.test(s))
     
-        
         return filteredS.join('') === filteredS.reverse().join('')
     
     }
