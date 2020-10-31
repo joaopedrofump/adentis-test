@@ -1,4 +1,4 @@
-module.exports ={
+module.exports = {
 
     anagram: (s1, s2) => {
 
