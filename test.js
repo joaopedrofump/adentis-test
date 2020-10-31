@@ -1,4 +1,4 @@
-import {anagram,palindrome} from './browser.js'
+import {anagram,palindrome} from './index.js'
 
 const testAnagram = (expected, s1, s2) => console.log(`Anagram Test "${s1}" and "${s2}": Expected:`, expected, 'Actual:', anagram(s1, s2))
 const testPalindrome = (expected, str) => console.log(`Palindrome Test "${str}": Expected:`, expected, 'Actual:', palindrome(str))
